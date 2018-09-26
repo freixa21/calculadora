@@ -14,6 +14,7 @@ public class Calculadora {
         System.out.print("Digues un altre número (B): "); b = in.nextInt();
         
         System.out.println("El número A més el número B és: " + (a + b));
+        System.out.println("El número A menys el número B és: " + (a - b));
     }
     
 }

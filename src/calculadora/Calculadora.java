@@ -8,13 +8,14 @@ public class Calculadora {
  
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        int a, b, irrellevant1, irrellevant2;
+        int a, b, numero1, numero2;
         
         System.out.print("Digues un número (A): "); a = in.nextInt();
         System.out.print("Digues un altre número (B): "); b = in.nextInt();
         
         System.out.println("El número A més el número B és: " + (a + b));
         System.out.println("El número A menys el número B és: " + (a - b));
+        System.out.println("El número A menys el número B és: " + (a * b));
     }
     
 }

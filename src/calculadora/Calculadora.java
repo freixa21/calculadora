@@ -15,7 +15,8 @@ public class Calculadora {
         
         System.out.println("El número A més el número B és: " + (a + b));
         System.out.println("El número A menys el número B és: " + (a - b));
-        System.out.println("El número A menys el número B és: " + (a * b));
+        System.out.println("El número A multiplicat per el número B és: " + (a * b));
+        System.out.println("El número A dividit per el número B és: " + (a / b));
     }
     
 }
